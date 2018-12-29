@@ -42,32 +42,67 @@ class RouteServiceProvider extends ServiceProvider
         //
     }
 
-    /**
-     * Define the "web" routes for the application.
-     *
-     * These routes all receive session state, CSRF protection, etc.
-     *
-     * @return void
-     */
-    protected function mapWebRoutes()
+//    /**
+//     * Define the "web" routes for the application.
+//     *
+//     * These routes all receive session state, CSRF protection, etc.
+//     *
+//     * @return void
+//     */
+//    protected function mapWebRoutes()
+//    {
+//        Route::middleware('web')
+//             ->namespace($this->namespace)
+//             ->group(base_path('routes/web.php'));
+//    }
+//
+//    /**
+//     * Define the "api" routes for the application.
+//     *
+//     * These routes are typically stateless.
+//     *
+//     * @return void
+//     */
+//    protected function mapApiRoutes()
+//    {
+//        Route::prefix('api')
+//             ->middleware('api')
+//             ->namespace($this->namespace)
+//             ->group(base_path('routes/api.php'));
+//    }
+
+
+    protected function homeRoutes()
     {
-        Route::middleware('web')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/web.php'));
+        Route::middleware(['web'])
+            ->group(base_path('src/www/home/routes/routes.php'));
     }
 
-    /**
-     * Define the "api" routes for the application.
-     *
-     * These routes are typically stateless.
-     *
-     * @return void
-     */
-    protected function mapApiRoutes()
+    protected function clientRoutes()
     {
-        Route::prefix('api')
-             ->middleware('api')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/api.php'));
+        Route::prefix('client')
+            ->middleware(['web'])
+            ->group(base_path('src/www/client/routes/routes.php'));
+    }
+
+    protected function categoriesRoutes()
+    {
+        Route::prefix('admin/categories')
+            ->middleware(['web', 'auth', 'role:admin'])
+            ->group(base_path('src/www/categories/routes/routes.php'));
+    }
+
+    protected function subCategoriesRoutes()
+    {
+        Route::prefix('admin/sub_categories')
+            ->middleware(['web', 'auth', 'role:admin'])
+            ->group(base_path('src/www/sub_categories/routes/routes.php'));
+    }
+
+    protected function testRoutes()
+    {
+        Route::prefix('admin/test')
+            ->middleware(['web', 'auth', 'role:admin'])
+            ->group(base_path('src/www/test/routes/routes.php'));
     }
 }
