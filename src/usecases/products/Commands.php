@@ -44,8 +44,6 @@ class Commands
             $nameCommand = trim($column[1]);
             $param = !empty($column[2]) ? trim($column[2]) : '';
 
-//            list($id, $nameCommand, $param) = array_map('trim', $column);
-
             $commands [] = [
                 'id' => $id,
                 'name' => $nameCommand,

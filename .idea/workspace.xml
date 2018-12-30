@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90423ec7-ddc1-4f65-9b02-72c17a0b3b97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/usecases/products/Commands.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/__templates/forms/horizontal/number.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/home/controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/home/routes/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/home/templates/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/products/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/products/controllers/CsvLoadController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/products/routes/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/products/templates/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/products/templates/csv_load.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/products/templates/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/www/products/templates/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/merqueo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/merqueo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/usecases/CommandsTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_12_29_214359_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_12_29_214359_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositories/ProductQueriesReository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositories/ProductQueriesReository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositories/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositories/ProductRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/www/__templates/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/www/__templates/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/www/home/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/www/home/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/www/products/controllers/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/www/products/controllers/CreateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/www/products/controllers/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/www/products/controllers/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecases/products/Commands.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/usecases/products/Commands.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/repositories/ProductRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="-32">
               <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/usecases/CommandsTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding>
+                <element signature="e#119#138#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/usecases/products/Commands.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="48" />
+            <state relative-caret-position="105">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -126,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/www/home/routes/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -178,10 +159,11 @@
         <option value="$PROJECT_DIR$/src/www/products/routes/routes.php" />
         <option value="$PROJECT_DIR$/src/www/products/templates/csv_load.blade.php" />
         <option value="$PROJECT_DIR$/src/www/products/templates/list.blade.php" />
-        <option value="$PROJECT_DIR$/src/usecases/products/Commands.php" />
         <option value="$PROJECT_DIR$/src/www/products/controllers/CreateController.php" />
         <option value="$PROJECT_DIR$/src/www/products/controllers/CsvLoadController.php" />
         <option value="$PROJECT_DIR$/src/repositories/ProductRepository.php" />
+        <option value="$PROJECT_DIR$/src/usecases/products/Commands.php" />
+        <option value="$PROJECT_DIR$/tests/usecases/CommandsTest.php" />
       </list>
     </option>
   </component>
@@ -312,18 +294,6 @@
               <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
               <item name="merqueo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="usecases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,94 +306,18 @@
             <path>
               <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
               <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
               <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="__templates" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
               <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="__templates" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="__templates" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-              <item name="horizontal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merqueo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merqueo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -459,11 +353,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.CommandsTest.test_success">
+    <configuration name="CommandsTest.test_success" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\usecases\CommandsTest" file="$PROJECT_DIR$/tests/usecases/CommandsTest.php" method="test_success" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.CommandsTest.test_success" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -475,12 +378,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546116620894</updated>
-      <workItem from="1546116628228" duration="14199000" />
+      <workItem from="1546116628228" duration="14892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14199000" />
+    <option name="totallyTimeSpent" value="14892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +399,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24469697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24469697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -751,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/usecases/products/Commands.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/www/products/controllers/CreateController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -780,8 +676,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/repositories/ProductRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="-32">
           <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/usecases/products/Commands.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/usecases/CommandsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="e#119#138#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
