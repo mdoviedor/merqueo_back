@@ -17,12 +17,11 @@ class CreateProductsTable extends Migration
             $table->increments('id');
 
             $table->mediumText('name');
+            $table->mediumText('reference');
             $table->double("price");
             $table->double("cost");
             $table->unsignedInteger("amount");
             $table->boolean("state")->default(true);
-
-            $table->mediumText('description')->nullable();
 
             $table->timestamps();
         });

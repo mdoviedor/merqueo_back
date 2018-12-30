@@ -32,4 +32,13 @@ class ListController
         $this->productQueriesReository = $productQueriesReository;
     }
 
+    public function __invoke()
+    {
+        $products = $this->productQueriesReository->findAll();
+
+        return view("products::list", [
+            'products' => $products,
+        ]);
+    }
+
 }

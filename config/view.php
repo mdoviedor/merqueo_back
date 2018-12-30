@@ -15,6 +15,8 @@ return [
 
     'paths' => [
         resource_path('views'),
+        www\home\config::DIR_TEMPLATES,
+        'src/www/__templates',
     ],
 
     /*

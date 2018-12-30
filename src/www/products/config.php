@@ -1,6 +1,6 @@
 <?php
 
-namespace www\home;
+namespace www\products;
 
 /**
  * Created by PhpStorm.
@@ -8,7 +8,6 @@ namespace www\home;
  * Date: 29/12/18
  * Time: 05:15 PM
  */
-
 class config
 {
 
